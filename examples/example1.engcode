@@ -1,0 +1,27 @@
+# Basic Example: Variable Declarations, Conditionals, and Loops
+
+# Declare variables
+create a variable named 'name' with value 'Alice'
+create a variable named 'age' with value 25
+
+# Print variables
+print('Name: ' + name)
+print('Age: ' + str(age))
+
+# Conditional statement
+if the variable 'age' is greater than 18
+    print('You are an adult')
+else
+    print('You are a minor')
+
+# For loop example
+create a variable named 'tasks' with value ['task1', 'task2', 'task3']
+for each item in the list 'tasks'
+    print(item)
+
+# While loop example
+create a variable named 'counter' with value 0
+while the variable 'counter' is less than 3
+    print('Counter: ' + str(counter))
+    counter = counter + 1
+end while

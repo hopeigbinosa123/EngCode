@@ -1,0 +1,28 @@
+# Function and Class Example
+
+# Define a function
+define a function named 'greet' that takes parameters 'name'
+    print('Hello, ' + name)
+end function
+
+# Call the function
+call the function 'greet' with arguments ('Alice')
+
+# Define a class
+define a class named 'Person'
+    create a variable named 'first_name' with value 'Unknown'
+    create a variable named 'last_name' with value 'Unknown'
+    define a method named 'full_name' that takes parameters 'self'
+        self_return = self['first_name'] + ' ' + self['last_name']
+        return self_return
+    end method
+end class
+
+# Create an object of the class
+create an object named 'person1' of class 'Person'
+person1.first_name = 'John'
+person1.last_name = 'Doe'
+
+# Print object attributes and call the method
+print(person1.first_name + ' ' + person1.last_name)
+print(person1.full_name())
